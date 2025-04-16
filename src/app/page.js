@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 export default function Home() {
 
   const handleClick = () => {
-      window.location.href = "/mediamister-connecting"; 
+      window.location.href = "/dmarket-connecting"; 
   }
   // useEffect(() => {
   //   window.location.href = "/mediamister-connecting";
