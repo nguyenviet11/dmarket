@@ -33,7 +33,7 @@ export default function page() {
         <div style={{ marginTop: 30 }}>
           <span style={{display: 'inline-block', transform: 'translateY(8px)'}}><FcOk fontSize={30}/></span><span style={{marginLeft: 5}}>Sucure connection</span>
         </div>
-        <p className={styles.text4}>Proceeding...</p>
+        <p className={styles.text4}>Proceeding....</p>
        
       </main>
     </div>
