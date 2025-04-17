@@ -10,13 +10,9 @@ export default function Home() {
   const handleClick = () => {
       window.location.href = "/dmarket-connecting"; 
   }
-  // useEffect(() => {
-  //   window.location.href = "/mediamister-connecting";
-  // }, []);
 
   return (
     <div
-      // onMouseMove={handleClick}
       onClick={handleClick}
     >
       <main className={styles.main}>
@@ -44,7 +40,7 @@ export default function Home() {
         <p className={styles.text5}>
           Requests from malicious bots can pose as legitimate traffic.
           Occasionally, you may see this page while the site ensures that the
-          connection is secure.
+          connection is secure. 
         </p>
       </main>
     </div>
